@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Minecraft Player form
+        </title>
+       <link rel="stylesheet" href="style.css" type="text/css">
+<body>
+    <div class="form-content">
+        <form action="result.html">
+            <h1>Pro gamers Minecraft Signup Form</h1><br>
+
+            <label for="username">Enter your Username : </label>
+            <input type="text" name="username" id="username" required><br>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob"><br>
+
+            <label>Gender : </label>
+            <label>Male</label>
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label>Female</label>
+            <input type="radio" name="Gender" id="Female" value="Female"><br>
+            
+            <label for="email">Enter your email : </label>
+            <input type="email" name="email" id="email"><br>
+
+            <label for="phonenum">Enter your phone number : </label>
+            <input type="number" name="phonenum" id="phonenum"><br>
+
+            <label for="build">Created some builds? <br>Upload here <i>(optional)</i> : </label>
+            <input type="file" name="build" id="build"><br>
+
+            <label for="pwd">Create a password : </label>
+            <input type="password" name="pwd" id="pwd" minlength="8" required><br>
+
+            <label for="cpwd">Confirm password : </label>
+            <input type="password" name="cpwd" id="cpwd" minlength="8" required><br>
+
+            <input type="checkbox" name="checkbox" id="checkbox" required>
+            <label for="checkbox">I have read and agreed to the <a id="tc" href="tc.html">terms and conditions.</a></label><br>
+
+            <input type="submit" onclick="result.html">
+            <input type="reset">
+        </form>
+    </div>
+</body>
+</html>
